@@ -1,0 +1,64 @@
+/* General Dashboard Styling */
+.dashboard {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+/* Title */
+.dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Dropdown */
+.dropdown {
+    background-color: #333;
+    color: black;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Cards Section */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card.bg-danger { background-color: #e74c3c; }
+.card.bg-info { background-color: #3498db; }
+.card.bg-success { background-color: #2ecc71; }
+.card.bg-dark { background-color: #2c3e50; }
+
+/* Graphs Section */
+.graphs-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.graph-container {
+    width: 48%;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.graph-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
