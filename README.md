@@ -1,4 +1,7 @@
-COVID-19 Dashboard using Plotly Dash
+
+**COVID-19 Dashboard using Plotly Dash**
+
+
 This project showcases an interactive dashboard for visualizing COVID-19 data using Plotly Dash. The dashboard integrates geographical data to provide a comprehensive view of the pandemic's impact across different regions.
 
 Key features include:
